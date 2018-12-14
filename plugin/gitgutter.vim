@@ -218,3 +218,5 @@ augroup END
 " }}}
 
 " vim:set et sw=2 fdm=marker:
+autocmd! gitgutter CursorHold,CursorHoldI
+autocmd BufWritePost * GitGutter
